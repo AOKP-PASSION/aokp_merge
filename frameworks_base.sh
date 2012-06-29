@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/android/frameworks/base/
 git remote add  aokp_frameworks_base ~/aokp_official/frameworks_base
 git fetch aokp_frameworks_base
 git merge aokp_frameworks_base/ics

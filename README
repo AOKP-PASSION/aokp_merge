@@ -6,25 +6,9 @@ mkdir ~/aokp_official
 cd ~/aokp_official
 
 git clone https://github.com/AOKP-PASSION/aokp_merge.git
-git clone https://github.com/AOKP/vendor_aokp.git
-git clone https://github.com/AOKP/platform_manifest.git
-git clone https://github.com/AOKP/frameworks_base.git
-git clone https://github.com/Evervolv/android_device_htc_qsd8k-common.git
-git clone https://github.com/AOKP/vendor_htc.git
+cd ~/aokp_official/aokp_merge
 
-cd aokp_merge
+./install.sh
 
-cp update.sh ../update.sh
-cp qsd8k-common.sh ~/android/device/htc/merge.sh
-cp vendor_aokp.sh ~/android/vendor/aokp/merge.sh
-cp vendor_htc.sh ~/android/vendor/htc/merge.sh
-cp frameworks_base.sh ~/android/frameworks/base/merge.sh
-cp platform_manifest ~/android/platform_manifest/merge.sh
 
-cd ../
-
-./update.sh
-
-cd ~/android/platform_manifest/
-./merge.sh
 

@@ -1,4 +1,5 @@
 #!/bin/sh
+cd ~/android/platform_manifest/
 git remote add aokp_platform_manifest ~/aokp_official/platform_manifest
 git fetch aokp_platform_manifest
 git merge aokp_platform_manifest/ics
